@@ -1,0 +1,142 @@
+/* General Styles (same as previous pages) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: #ffffff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #131212;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Mission Statement Section */
+.mission-statement {
+    padding: 50px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.mission-statement h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.mission-statement p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Company History Section */
+.company-history {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.history-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.history-text {
+    width: 60%;
+}
+
+.history-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.history-text p {
+    font-size: 16px;
+}
+
+.history-image {
+    width: 35%;
+}
+
+.history-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Core Values Section */
+.core-values {
+    padding: 50px 0;
+    background: #e9ecef;
+}
+
+.core-values h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.value-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.value-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.value-item p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 14px;
+}
